@@ -2,5 +2,6 @@ go 1.18
 
 use (
 	./web/0-helloworld
-	./web/1-uploadfile
+	./web/1-static
+	./web/2-uploadfile
 )
