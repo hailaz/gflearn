@@ -1,3 +1,6 @@
 go 1.18
 
-use ./web/helloworld
+use (
+	./web/0-helloworld
+	./web/1-uploadfile
+)
