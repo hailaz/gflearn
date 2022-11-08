@@ -1,6 +1,7 @@
 go 1.18
 
 use (
+	./os/0-log
 	./web/0-helloworld
 	./web/1-static
 	./web/2-uploadfile
