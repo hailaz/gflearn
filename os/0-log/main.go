@@ -35,7 +35,6 @@ var LoggingJsonHandler glog.Handler = func(ctx context.Context, in *glog.Handler
 			if ctxValue != nil {
 				str += "{" + gconv.String(ctxValue) + "}"
 			} else {
-
 				str += "{}"
 			}
 		}
