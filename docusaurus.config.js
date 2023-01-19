@@ -80,17 +80,17 @@ const config = {
           // },
           // { to: '/blog', label: '博客', position: 'left' },
           {
-            href: 'https://www.hailaz.cn/docs/live/',
+            to: '../docs/live/',
             label: '生活',
             position: 'left',
           },
           {
-            href: 'https://www.hailaz.cn/docs/learn/index',
+            to: '../docs/learn/index',
             label: '学习',
             position: 'left',
           },
           {
-            href: 'https://www.hailaz.cn/blog',
+            to: '../blog',
             label: '博客',
             position: 'left',
           },
