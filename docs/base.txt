@@ -1,2 +1,5 @@
+---
+id: index
+---
 # GoFrame 学习笔记
 

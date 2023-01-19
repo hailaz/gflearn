@@ -1,8 +1,8 @@
 go 1.18
 
 use (
-	./os/0-log
-	./web/0-helloworld
-	./web/1-static
-	./web/2-uploadfile
+	./docs/os/0-log
+	./docs/web/0-helloworld
+	./docs/web/1-static
+	./docs/web/2-uploadfile
 )
