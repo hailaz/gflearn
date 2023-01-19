@@ -38,17 +38,17 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/hailaz/hailaz.github.io/blob/master/',
+            'https://github.com/hailaz/gflearn/blob/main/',
         },
-        blog: {
-          blogSidebarTitle: '全部博文',
-          blogSidebarCount: 'ALL',
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/hailaz/hailaz.github.io/blob/master/',
-        },
+        // blog: {
+        //   blogSidebarTitle: '全部博文',
+        //   blogSidebarCount: 'ALL',
+        //   showReadingTime: true,
+        //   // Please change this to your repo.
+        //   // Remove this to remove the "edit this page" links.
+        //   editUrl:
+        //     'https://github.com/hailaz/hailaz.github.io/blob/master/',
+        // },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
