@@ -9,7 +9,7 @@ const config = {
   title: '哩度',
   tagline: '',
   url: 'https://hailaz.github.io',
-  baseUrl: '/',
+  baseUrl: '/gflearn/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -66,12 +66,6 @@ const config = {
           src: 'img/favicon.ico',
         },
         items: [
-          {
-            type: 'doc',
-            docId: 'index',
-            position: 'left',
-            label: 'GoFrame',
-          },
           // {
           //   type: 'docSidebar',
           //   position: 'left',
@@ -85,6 +79,27 @@ const config = {
           //   label: '学习',
           // },
           // { to: '/blog', label: '博客', position: 'left' },
+          {
+            href: 'https://www.hailaz.cn/docs/live/',
+            label: '生活',
+            position: 'left',
+          },
+          {
+            href: 'https://www.hailaz.cn/docs/learn/index',
+            label: '学习',
+            position: 'left',
+          },
+          {
+            href: 'https://www.hailaz.cn/blog',
+            label: '博客',
+            position: 'left',
+          },
+          {
+            type: 'doc',
+            docId: 'index',
+            position: 'left',
+            label: 'GFLearn',
+          },
           {
             href: 'https://hailaz.github.io/tools/tools.html',
             label: '工具',
