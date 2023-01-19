@@ -84,7 +84,7 @@ const config = {
           //   sidebarId: 'learn',
           //   label: '学习',
           // },
-          { to: '/blog', label: '博客', position: 'left' },
+          // { to: '/blog', label: '博客', position: 'left' },
           {
             href: 'https://hailaz.github.io/tools/tools.html',
             label: '工具',
