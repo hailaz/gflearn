@@ -11,12 +11,16 @@ for subdir in $(ls .); do
         # 写入目录
         title=$(head -n +1 ${subdir}/${rmname})
         echo -e "- [${title:2}](${subdir})" >> ${menu}
+        echo "====find subdir: ${subdir}"
         # 写入项目
-        for file in $(find ${subdir} -name go.mod); do
-            projectpath=$(dirname $file)
-            title=$(head -n +1 ${projectpath}/${rmname})
-            echo "  - [${title:2}](${subdir}/${projectpath#*-})"
-            echo -e "  - [${title:2}](${subdir}/${projectpath#*-})" >> ${menu}
+        for file in $(find ${subdir} -name ${rmname}); do
+            if [ "${subdir}/${rmname}" != "${file}" ]; then
+                projectpath=$(dirname ${file})
+                title=$(head -n +1 ${projectpath}/${rmname})
+                echo "====find file: ${file}"
+                echo "  - [${title:2}](${subdir}/${projectpath#*-})"
+                echo -e "  - [${title:2}](${subdir}/${projectpath#*-})" >> ${menu}
+            fi
         done
     fi
 done

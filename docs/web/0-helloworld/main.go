@@ -10,6 +10,6 @@ func main() {
 	s.BindHandler("/", func(r *ghttp.Request) {
 		r.Response.Write("Hello World")
 	})
-	// s.SetAddr("127.0.0.1:8080") // 看config.toml配置文件
+	// s.SetAddr("127.0.0.1:8080") // 看config.yaml配置文件
 	s.Run()
 }

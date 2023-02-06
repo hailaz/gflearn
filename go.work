@@ -1,7 +1,7 @@
 go 1.18
 
 use (
-	./docs/os/0-log
+	./docs/os/0-log/0-jsonlog
 	./docs/web/0-helloworld
 	./docs/web/1-static
 	./docs/web/2-uploadfile

@@ -1,4 +1,4 @@
-module mylog
+module jsonlog
 
 go 1.18
 
