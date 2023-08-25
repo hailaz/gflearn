@@ -49,6 +49,9 @@
          1. HandlerTypeObject
          2. HandlerTypeHandler
          3. HandlerTypeMiddleware（全局中间件）
+      3. 规范路由和普通 handler 会执行 [callHandlerFunc](https://github.com/gogf/gf/blob/6eb0de42f817f3433e63bc3d8b30fbdca42bc60a/net/ghttp/ghttp_request_middleware.go#L129)
+         1. m.request.[Parse](https://github.com/gogf/gf/blob/53e5a040734ea6c79085c233ce4ac25880f66c4c/net/ghttp/ghttp_request_param.go#L54)将标准路由的参数传入
+         2. r.doGetRequestStruct(pointer)合并了标准路由参数字段的 tag 定义值，如：默认值定义、参数值来源等
    3. 循环结束后根据状态设置 response 的状态码
 8. HookAfterServe
 9. HookBeforeOutput
